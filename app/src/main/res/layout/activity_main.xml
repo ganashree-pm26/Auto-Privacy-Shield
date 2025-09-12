@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- App Title -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="AutoPrivacyShield"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Start Privacy Protection Button -->
+    <Button
+        android:id="@+id/startBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start Privacy Protection"
+        android:textSize="16sp"
+        android:backgroundTint="@android:color/holo_green_dark"
+        android:textColor="@android:color/white"
+        android:padding="12dp" />
+
+    <!-- Screen Capture Preview ImageView -->
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@mipmap/ic_launcher"
+        android:contentDescription="Screen preview with privacy protection"
+        android:layout_marginTop="20dp"
+        android:background="@android:color/darker_gray"
+        android:scaleType="fitCenter" />
+
+    <!-- Notifications TextView -->
+    <TextView
+        android:id="@+id/notificationTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Notifications will appear here"
+        android:textSize="16sp"
+        android:paddingTop="20dp"
+        android:gravity="center"
+        android:textColor="@android:color/black"
+        android:background="@android:color/white"
+        android:padding="8dp"
+        android:layout_marginTop="8dp" />
+
+    <!-- Separator -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@android:color/darker_gray"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp" />
+
+    <!-- Detection Testing Section Title -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Detection Testing"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Detection Testing Buttons -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnFaceOcr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Face + OCR"
+            android:layout_marginEnd="8dp"
+            android:backgroundTint="@android:color/holo_blue_dark"
+            android:textColor="@android:color/white"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/btnOcrOnly"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="OCR Only"
+            android:layout_marginEnd="8dp"
+            android:backgroundTint="@android:color/holo_blue_dark"
+            android:textColor="@android:color/white"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/btnFaceOnly"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Face Only"
+            android:backgroundTint="@android:color/holo_blue_dark"
+            android:textColor="@android:color/white"
+            android:textSize="12sp" />
+
+    </LinearLayout>
+
+    <!-- Status Info -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="• Tap 'Start Privacy Protection' to begin real-time screen protection\n• Use testing buttons to validate detection algorithms\n• Grant permissions when prompted"
+        android:textSize="12sp"
+        android:textColor="@android:color/darker_gray"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        android:padding="8dp" />
+
+</LinearLayout>
