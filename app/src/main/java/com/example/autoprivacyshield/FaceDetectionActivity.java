@@ -92,8 +92,8 @@ public class FaceDetectionActivity extends AppCompatActivity {
         Bitmap mutableBitmap = originalBitmap.copy(Bitmap.Config.ARGB_8888, true);
         Canvas canvas = new Canvas(mutableBitmap);
         Paint paint = new Paint();
-        paint.setColor(Color.RED);
-        paint.setStyle(Paint.Style.STROKE);
+        paint.setColor(Color.BLACK);
+        paint.setStyle(Paint.Style.FILL);
         paint.setStrokeWidth(5);
 
         for (Face face : faces) {

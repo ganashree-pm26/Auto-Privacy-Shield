@@ -128,8 +128,8 @@ public class OCRActivity extends AppCompatActivity {
                         paintNormal.setStrokeWidth(4f);
 
                         Paint paintSensitive = new Paint();
-                        paintSensitive.setColor(Color.RED);
-                        paintSensitive.setStyle(Paint.Style.STROKE);
+                        paintSensitive.setColor(Color.BLACK);
+                        paintSensitive.setStyle(Paint.Style.FILL);
                         paintSensitive.setStrokeWidth(6f);
 
                         for (DetectResult result : detectResults) {

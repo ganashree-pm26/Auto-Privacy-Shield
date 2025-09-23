@@ -47,7 +47,7 @@ public class OCRDetector {
                         type = "Card Number";
                         isSensitive = true;
                     } else if (AADHAAR_PATTERN.matcher(lineText).find()) {
-                        type = "Aadhaar Number";
+                        type = "Sensitive Number";
                         isSensitive = true;
                     } else if (PAN_PATTERN.matcher(lineText).find()) {
                         type = "PAN Number";

@@ -48,7 +48,7 @@ public class DetectionHandler {
             }
 
             Rect[] sensitiveAreas = sensitiveBoxes.toArray(new Rect[0]);
-            Bitmap maskedBitmap = MaskingUtils.blurRegions(bitmap, sensitiveAreas);
+            Bitmap maskedBitmap = MaskingUtils.blackoutRegions(bitmap, sensitiveAreas);
             callback.onProcessingComplete(maskedBitmap, sensitiveAreas);
         });
     }
