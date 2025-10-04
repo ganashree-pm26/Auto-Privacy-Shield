@@ -6,6 +6,10 @@ Built at a hackathon, this project combines *Computer Vision, OCR, and Android s
 
 ---
 
+## Submission
+Video link- 
+
+
 ## Features
 
 * 🔍 *Face Detection & Masking* — Blur or hide faces automatically in real time.
