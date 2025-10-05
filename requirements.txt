@@ -1,0 +1,4 @@
+1)Android Studio Arctic Fox (or newer)
+2)Android SDK 33+
+3)Gradle 7+
+4)Java 11 / Kotlin
