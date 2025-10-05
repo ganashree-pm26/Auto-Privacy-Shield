@@ -8,6 +8,9 @@ Built at a hackathon, this project combines *Computer Vision, OCR, and Android s
 
 ## Submission
 https://youtu.be/Z0VbRCbc7oY
+##Check this link for the logcat working of detection handler and utils after watching the demo
+https://youtu.be/IKXreTwUWr8
+
 
 
 ## Features
