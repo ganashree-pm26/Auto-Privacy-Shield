@@ -7,7 +7,7 @@ Built at a hackathon, this project combines *Computer Vision, OCR, and Android s
 ---
 
 ## Submission
-Video link- 
+https://youtu.be/WxyfBQApN8Q
 
 
 ## Features
